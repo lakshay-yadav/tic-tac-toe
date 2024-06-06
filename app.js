@@ -64,6 +64,7 @@ const checkWinner = () => {
             if (pos1 === pos2 && pos2 === pos3) {
                 disableBoxes()
                 winnerArea.innerText = `The Winner is: ${pos1}`
+                alert(`The Winner is: ${pos1}`)
             }
         }
     }
